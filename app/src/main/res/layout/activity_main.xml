@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lista_compras"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/sacola_um"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:hint="Digite o nome do produto..."
+        android:background="#C9FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="115dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:background="#77603F"
+        android:text="Inserir"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/listViewProdutos"
+        android:layout_width="357dp"
+        android:layout_height="557dp"
+        android:layout_margin="16dp"
+        android:background="#DFAE9573"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+</LinearLayout>
